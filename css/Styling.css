@@ -1,3 +1,14 @@
 .body{
   background-image:url("Images/background-image.jpeg");
 }
+nav ul{
+  float:right;
+
+}
+nav ul li{
+  display: inline-block;
+}
+nav ul li a{
+  color: white;
+  padding: 30px;
+}
