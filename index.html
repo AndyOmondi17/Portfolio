@@ -16,12 +16,13 @@
   </head>
   
   <body class="bodyStyling">
+    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
     <section>
       <div class="container-fluid">
         <div class="row align-items-center justify-content-center">
-          <div>
-            <nav>
-              <ul>
+          <div class="text-right">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block" >
                 <li>
                   <a href="#home_section" class="nav-link active">Home</a>
                 </li>
@@ -39,7 +40,7 @@
           </div>
 
 
-          <div>
+          <div class="text-left">
             <nav class="site-navigation position-relative" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li>
@@ -56,10 +57,29 @@
 
       </div>
     </section>
+  </header>
 
 
-    <section id="home_section">
-
+    <section class="site-blocks-cover overlay bg-light" id="home_section">
+     
+      <div class="container">
+          <div class="row justify-content-center">
+ 
+           <div class="col-md-12 mt-lg-5 text-left align-self-center text-intro">
+             <div class="row">
+               <div class="col-lg-6">
+                 <centre>
+                 <h1 class="text-black">I am Andy Omondi.</h1>
+                 <p class="lead">I am a mobile developer.</p>
+                </centre>
+               </div>
+             </div>
+           </div>
+             
+         </div>
+       </div>
+      
+       <img src="logo_1.jpg" alt="Image" class="img-face" data-aos="fade">
 
     </section>
 
